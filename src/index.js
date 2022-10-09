@@ -1,7 +1,7 @@
 import './css/styles.css';
 import debounce from 'lodash.debounce';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
-import { fetchCountries } from './js/fetchCountries';
+import { fetchCountries } from './fetch-countries.js';
 import { listItemTemplate } from './templates/list-item-template';
 import { cardTemplate } from './templates/card-template';
 
